@@ -11,8 +11,8 @@ $ whoami
 sage  (Xavier Imbang)
 
 $ cat now.txt
-building     → MabatID: a clear route to getting Philippine government IDs
-shipping     → DotEXE: our thesis, a poultry feed decision support system
+building     → MabatID, SwipeMail and akwa
+presented    → DotEXE, our undergraduate capstone, at CS Expo 2026
 learning     → building with AI, one small working project at a time
 looking for  → an internship (OJT) in software development
 ```
@@ -21,18 +21,20 @@ looking for  → an internship (OJT) in software development
 
 ## 🛠️ What I've built
 
-<!-- Each project is: name, what it does (plain words), and why it exists. -->
-
-### 🪪 [MabatID](https://github.com/sagembng/MabatID)
+### 🪪 [MabatID](https://github.com/sagembng/MabatID) &nbsp;·&nbsp; 🚧 in development
 A mobile-first web app that maps the steps to getting a government ID in the Philippines, so people stop getting lost in paperwork.
 *Why it exists: the process is confusing, and a clear roadmap saves people real time.*
 
-### 🐔 DotEXE: Poultry Feed Decision Support System
-Our group thesis. It uses a **genetic algorithm** to suggest feed mixes, and we're presenting it at the CS Expo.
-*Why it exists: better feed decisions can help poultry farmers cut costs.*
+### 📬 [SwipeMail](https://github.com/sagembng/SwipeMail) &nbsp;·&nbsp; 🚧 in development
+Clear your unread Gmail by swiping. Each email becomes a card with a short summary: swipe left to mark it read, right to keep it, up to archive, down to snooze.
+*Why it exists: inbox triage should feel quick and a little fun, not like a chore.*
 
-### 📬 Email Swipe *(in progress)*
-A Gmail helper idea: swipe left if you've read it, swipe right if it's important. Inbox triage that feels like a game.
+### 🌊 [akwa](https://github.com/sagembng/akwa) &nbsp;·&nbsp; 🚧 in development
+A new project I'm working on. More details coming soon.
+
+### 🐔 DotEXE: Poultry Feed Decision Support System &nbsp;·&nbsp; ✅ presented
+Our undergraduate capstone, presented at **CS Expo 2026 @ FEU Tech**. It uses a **genetic algorithm** to suggest feed mixes, and it projected **6.47% total savings** on feed costs.
+*Why it exists: better feed decisions can help poultry farmers cut costs. (The repo is private.)*
 
 ---
 
