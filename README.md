@@ -11,7 +11,8 @@ $ whoami
 sage  (Xavier Imbang)
 
 $ cat now.txt
-building     → MabatID, SwipeMail and akwa
+building     → akwa
+shipped      → MabatID and SwipeMail (both live!)
 presented    → DotEXE, our undergraduate capstone, at CS Expo 2026
 learning     → building with AI, one small working project at a time
 looking for  → an internship (OJT) in software development
@@ -21,20 +22,39 @@ looking for  → an internship (OJT) in software development
 
 ## 🛠️ What I've built
 
-### 🪪 [MabatID](https://github.com/sagembng/MabatID) &nbsp;·&nbsp; 🚧 in development
-A mobile-first web app that maps the steps to getting a government ID in the Philippines, so people stop getting lost in paperwork.
-*Why it exists: the process is confusing, and a clear roadmap saves people real time.*
+<!-- Every project uses the same card layout: name + tagline, link buttons, 2-3 highlights, stack.
+     Same layout every time = easy for a recruiter to scan in 10 seconds. -->
 
-### 📬 [SwipeMail](https://github.com/sagembng/SwipeMail) &nbsp;·&nbsp; 🚧 in development
-Clear your unread Gmail by swiping. Each email becomes a card with a short summary: swipe left to mark it read, right to keep it, up to archive, down to snooze.
-*Why it exists: inbox triage should feel quick and a little fun, not like a chore.*
+### 📬 SwipeMail: clear your unread Gmail by swiping
+[![Live demo](https://img.shields.io/badge/Live_demo-2ea44f?logo=vercel&logoColor=white)](https://swipemail-five.vercel.app/)
+[![Code](https://img.shields.io/badge/Code-181717?logo=github&logoColor=white)](https://github.com/sagembng/SwipeMail)
 
-### 🌊 [akwa](https://github.com/sagembng/akwa) &nbsp;·&nbsp; 🚧 in development
+Every unread email becomes a card with a short summary. Swipe left to mark it read, right to keep it, up to archive, down to snooze.
+- ✨ Summaries come from simple text rules (key sentences, deadlines, amounts), not an AI service
+- 🔒 No database: your login lives in an encrypted cookie
+- 🧱 **Built with:** Next.js, React, TypeScript, Gmail API
+
+<!-- Tip: add a screenshot or GIF here, e.g. ![SwipeMail demo](docs/swipemail.gif) -->
+
+### 🪪 MabatID: your route to a Philippine government ID
+[![Live demo](https://img.shields.io/badge/Live_demo-2ea44f?logo=vercel&logoColor=white)](https://mabatid.vercel.app/)
+[![Code](https://img.shields.io/badge/Code-181717?logo=github&logoColor=white)](https://github.com/sagembng/MabatID)
+
+A mobile-first web app that maps the steps to getting a government ID, so people don't get lost in paperwork.
+- 📱 Designed for phones first, since that's where most people will use it
+- 🗺️ Shows the route step by step instead of a wall of requirements
+
+### 🐔 DotEXE: poultry feed decision support system
+![Private repo](https://img.shields.io/badge/Repo-private-lightgrey) ![CS Expo 2026](https://img.shields.io/badge/CS_Expo_2026-FEU_Tech-blue)
+
+Our undergraduate capstone. It suggests feed mixes using a **genetic algorithm** (a method that "evolves" better answers over many rounds).
+- 📉 **6.47% total projected savings** on feed costs
+- 🎤 Presented at **CS Expo 2026 @ FEU Tech**
+
+### 🌊 akwa
+[![Code](https://img.shields.io/badge/Code-181717?logo=github&logoColor=white)](https://github.com/sagembng/akwa) ![Status](https://img.shields.io/badge/status-in_development-orange)
+
 A new project I'm working on. More details coming soon.
-
-### 🐔 DotEXE: Poultry Feed Decision Support System &nbsp;·&nbsp; ✅ presented
-Our undergraduate capstone, presented at **CS Expo 2026 @ FEU Tech**. It uses a **genetic algorithm** to suggest feed mixes, and it projected **6.47% total savings** on feed costs.
-*Why it exists: better feed decisions can help poultry farmers cut costs. (The repo is private.)*
 
 ---
 
